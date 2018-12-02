@@ -55,21 +55,22 @@
   <ItemGroup>
      <Compile Include="Assets\Script\AppleController.cs" />
      <Compile Include="Assets\Script\ArrowController.cs" />
+     <Compile Include="Assets\Script\ButtonController.cs" />
      <Compile Include="Assets\Script\GameController.cs" />
      <Compile Include="Assets\Script\GameOver.cs" />
      <Compile Include="Assets\Script\Playercontroller.cs" />
      <Compile Include="Assets\Script\PointUI.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/WorkSpace/Unity/2018-12-01/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/gomdo/OneDrive/문서/GitHub/AvoidArrow-T/2018-12-01/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/WorkSpace/Unity/2018-12-01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/gomdo/OneDrive/문서/GitHub/AvoidArrow-T/2018-12-01/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/WorkSpace/Unity/2018-12-01/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/gomdo/OneDrive/문서/GitHub/AvoidArrow-T/2018-12-01/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/WorkSpace/Unity/2018-12-01/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/gomdo/OneDrive/문서/GitHub/AvoidArrow-T/2018-12-01/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
