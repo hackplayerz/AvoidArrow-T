@@ -9,6 +9,7 @@ using UnityEngine.UI;
 
 public class GameOver : MonoBehaviour
 {
+    public GameObject RestartButton = null;
     GameController GameController = null;
     void Start()
     {
@@ -19,14 +20,11 @@ public class GameOver : MonoBehaviour
     {
         if (GameController.isGameOver)
         {
-            GetComponent<Text>().text = "Game Over\nPress R to Restart";
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                RestartGame();
-            }
+            GetComponent<Text>().text = "Game Over\nPress Button to Restart";
+            RestartButton.SetActive(true);
         }
     }
-    void RestartGame()
+   public void RestartGame()
     {
         Application.LoadLevel(Application.loadedLevel);
     }
